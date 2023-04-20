@@ -1,0 +1,332 @@
+  <!-- =======================================================
+  * Dasturchi: Abduvoitov Doniyor +998 90 400 33 01, Nematullayev Jasur +998 91 508 39 29 
+  ======================================================== -->
+  {% load static %}
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Shirin Shahar</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link rel="icon" href="assets/img/favicon/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.cs' %}s" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+  </head>
+  <body>
+  
+    <!-- ======= Header open ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <div class="container d-flex align-items-center justify-content-between">
+  
+        <div class="logo">
+          <h1><a href="index.html"><span>Shirin Shahar</span></a></h1>
+        </div>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
+            <li><a class="nav-link scrollto" href="{% url 'about' %}">About</a></li>
+            <li><a class="nav-link scrollto" href="{% url 'serves' %}">Services</a></li>
+            <li><a class="nav-link scrollto" href="{% url 'blog' %}">Blog</a></li>
+            <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header>
+    <!-- Header close -->
+  
+  
+    <main id="main">
+  
+  
+          <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Services</li>
+        </ol>
+        <h2>Services</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      
+      <div class="container">
+      <div class="d-flex justify-content-center"><h1 style="color: #0205a1;">Services</h1></div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-restaurant">Restaurant</li>
+              <li data-filter=".filter-shop">Shop</li>
+              <li data-filter=".filter-bank">Bank</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="row portfolio-container">
+<!-- Open slide -->
+          <!-- Slide 1 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bank">
+            <div class="portfolio-wrap">
+              <img width="100%" height="300px" src="https://darakchi.uz/storage/ac/05/6d/145083/photo_2021-03-19_09-34-10.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Agro Bank</h4>
+                <p>Bank</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/rjf4Jar14WQaM2DFA"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-restaurant">
+            <div class="portfolio-wrap">
+              <img width="100%" height="300px" src="https://static-prod.dineplan.com/api/images/restaurants/312/312_oscars-cafe-hillcrest.jpg?d=1584112680" alt="">
+              <div class="portfolio-info">
+                <h4>Oscar</h4>
+                <p>Restaurant</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/d9rhfx6eavQJX9eh9"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+            <div class="portfolio-wrap">
+              <img src="https://www.trondheimtorg.no/files/bdb72d97-762b-4f9d-96de-94847e9a1061_butikkbilder+2021/thebodyshop_rua0436_0821_small.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Shopping</h4>
+                <p>Shop</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/vFaMWk2vKTtThifH6"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-restaurant">
+            <div class="portfolio-wrap">
+            <img src="https://baku.cafe/img/cover/84.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Okean</h4>
+                <p>Restaurant</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/rtPuFa1MaiFbLfZk6" ><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+            <div class="portfolio-wrap">
+             <img src="https://sc04.alicdn.com/kf/H94fea0e9912b40068b2743400166745eI/225674528/H94fea0e9912b40068b2743400166745eI.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Shabnamcha</h4>
+                <p>Shop</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/wcPwi7bKfAL2HGa37"><i class="bi bi-geo-alt-fill"></i></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 6 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-restaurant">
+            <div class="portfolio-wrap">
+            <img src="https://i7.unansea.com/image/f52cd0167edf0ee3.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Kafe</h4>
+                <p>Restaurant</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/YNWQ7AUX8TPbCkdR8"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 7 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-restaurant">
+            <div class="portfolio-wrap">
+             <img src="https://pliki.propertynews.pl/i/09/17/81/091781_r0_940.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Maxburger555</h4>
+                <p>Restaurant</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/GvGrSf5KXZ4qKSUV8"><i class="bi bi-geo-alt-fill"></i></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 8 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+            <div class="portfolio-wrap">
+              <img src="https://www.sanchez-romero.com/wp-content/uploads/2021/02/App-Sanchez-Romero-lola-market.jpg" alt="">
+              <div class="portfolio-info">
+                <h4>Lola Market</h4>
+                <p>Shop</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/2AbpVDS2YzhnQqhr7"><i class="bi bi-geo-alt-fill"></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 9 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-shop">
+            <div class="portfolio-wrap">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWNkLiiX3hkj9L2Kh0Z2VyRavNAuifVXDfdA&usqp=CAU" alt="">
+              <div class="portfolio-info">
+                <h4>Italia pizza</h4>
+                <p>Restaurant</p>
+                <div class="portfolio-links">
+                  <a href="https://goo.gl/maps/R31hbodrx5VPNgqw8"><i class="bi bi-geo-alt-fill"></i></i></a>
+                  <a href="services-filter.html" title="More Details"><i class="bi bi-cart-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Clode slide -->
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+  
+      
+            <!-- ======= xizmatlar Section ======= -->
+            <section id="clients" class="clients">
+              <div class="container">
+        
+                  <div class="section-title" data-aos="fade-up">
+                      <h2>Services</h2>
+                      <p>Xizmatlar</p>
+                    </div>
+        
+                <div class="clients-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-2.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-3.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-4.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-5.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-6.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-7.png' %}" class="img-fluid" alt=""></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+        
+              </div>
+            </section><!-- End xizmatlar Section -->   
+
+
+    </main><!-- End #main -->
+  
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <h3>Shirin City</h3>
+                <p>
+                  Sirdaryo viloyati <br>
+                  Shirin shahar<br><br>
+                  <strong>Phone:</strong> +998(90) 400-33-01<br>
+                  <strong>Email:</strong> abduvoitow@gmail.com<br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Our Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Online shop</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Restaurant</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Delivery</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Taxi services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="servives.html">And other</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Leave your comment. Your opinion is important to us</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>IT Center</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">IT center</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+  
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+  
+    
+    <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+    <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+  </body>
+  </html>
+  
+    <!-- =======================================================
+    * Dasturchi: Abduvoitov Doniyor +998 90 400 33 01, Nematullayev Jasur +998 91 508 39 29 
+    ======================================================== -->

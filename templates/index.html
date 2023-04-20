@@ -1,0 +1,688 @@
+  <!-- =======================================================
+  * Dasturchi: Abduvoitov Doniyor +998 90 400 33 01, Nematullayev Jasur +998 91 508 39 29 
+  ======================================================== -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Shirin Shahar</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="icon" href="assets/img/favicon/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.cs' %}s" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======= Header open ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><span>Shirin Shahar</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'about' %}">About</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'serves' %}">Services</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'blog' %}">Blog</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- Header close -->
+
+  <!-- ======= Hero Section open ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1> Welcome to  <span>Shirin city</span></h1>
+            <h2>Travel to Shirin City with our website</h2>
+            <div class="text-center text-lg-start">
+              <a href="servives.html" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="{% static 'assets/img/hero-img.png' %}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section>
+  <!-- Hero Section close -->
+
+
+  
+  <main id="main">
+
+    <!-- ======= About Section open ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-shopping-bag"></i></div>
+              <h4 class="title"><a href="servives.html">Shop</a></h4>
+              <p class="description">Buy the best quality and brand products</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-restaurant"></i></div>
+              <h4 class="title"><a href="servives.html">Restaurant</a></h4>
+              <p class="description">Book a seat in the restaurant or cafe of your choice through our website</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-taxi"></i></div>
+              <h4 class="title"><a href="servives.html">Taxi</a></h4>
+              <p class="description">Use of fast and convenient  taxi service through our website</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- About Section close -->
+
+
+
+    <!-- ======= Counts Section open ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-cart-check" style="background-color: #3f66e6;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Do'konlar</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-cup-hot" style="background-color: #ee6c20;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Kafe va Restoranlar</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-fuel-pump" style="background-color: #15be56;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Yoqilg'i shahobchalari</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-bank" style="background-color: #bb0852;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Banklar</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Counts Section close -->
+
+            <!-- ======= xizmatlar Section ======= -->
+            <section id="clients" class="clients">
+              <div class="container">
+        
+                  <div class="section-title" data-aos="fade-up">
+                      <h2>Services</h2>
+                      <p>Xizmatlar</p>
+                    </div>
+        
+                <div class="clients-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-1.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-2.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-3.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-4.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-5.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-6.png' %}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{% static 'assets/img/xizmatlar/xizmatlar-7.png' %}" class="img-fluid" alt=""></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+        
+              </div>
+            </section><!-- End xizmatlar Section -->
+
+              
+          <!-- ======= Popular Courses Section ======= -->
+          <section id="popular-courses" class="courses">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-title">
+                <h2>Product</h2>
+                <p>Popular Product</p>
+              </div>
+      
+              <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                  <div class="course-item">
+                    <img id="product" src="https://media-cdn.tripadvisor.com/media/photo-s/1c/d4/5e/b1/mushroom-chick-shawarma.jpg" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">24 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Shaurma</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;50
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;65
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+      
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                  <div class="course-item">
+                    <img id="product" src="https://i.pinimg.com/originals/69/57/b3/6957b33ebeacc286836ce306a30e7967.jpg" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">12 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Hotdog</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;35
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;42
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+      
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                  <div class="course-item">
+                    <img id="product" src="https://media.cnn.com/api/v1/images/stellar/prod/220428140436-04-classic-american-hamburgers.jpg?c=original" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">23 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Hamburger</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;20
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;85
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+  
+  
+                
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                  <div class="course-item">
+                    <img id="product" src="https://cp.ectn.uz/files//donar_s_govyadinoy_evos.png" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">41 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Donar</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;35
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;42
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+  
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                  <div class="course-item">
+                    <img id="product" src="https://cp.ectn.uz/files//kartofel_fri_evos.png" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">13 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Hotdog</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;35
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;42
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+                
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                  <div class="course-item">
+                    <img id="product" src="https://cp.ectn.uz/files//0622/Pepsi_1.5.png" class="img-fluid" alt="...">
+                    <div class="course-content">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                        <button onclick="pursache()"><h4><a href="services-filter.html">Buy</a></h4></button>
+                        <p class="price">13 000 so'm</p>
+                      </div>
+      
+                      <h3><a>Pepesi</a></h3>
+                      <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                      <div class="trainer d-flex justify-content-between align-items-center">
+                        <div class="trainer-profile d-flex align-items-center">
+                          <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                          <span>Oscar</span>
+                        </div>
+                        <div class="trainer-rank d-flex align-items-center">
+                          <i class="bx bx-user"></i>&nbsp;35
+                          &nbsp;&nbsp;
+                          <i class="bx bx-heart"></i>&nbsp;42
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End Course Item-->
+      
+              </div>
+      
+            </div>
+          </section><!-- End Popular Courses Section -->
+
+
+    <!-- ======= Gallery Section open ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Gallery</h2>
+          <p>Gallery</p>
+        </div>
+
+        <div class="row g-0" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{% static 'assets/img/gallery/gallery-1.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-1.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="{% static 'assets/img/gallery/gallery-2.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-2.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="{% static 'assets/img/gallery/gallery-3.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-3.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="{% static 'assets/img/gallery/gallery-4.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-4.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="{% static 'assets/img/gallery/gallery-5.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-5.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="{% static 'assets/img/gallery/gallery-6.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-6.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="{% static 'assets/img/gallery/gallery-7.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-7.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="{% static 'assets/img/gallery/gallery-8.png' %}" class="gallery-lightbox">
+                <img src="{% static 'assets/img/gallery/gallery-8.png' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Prices for advertising</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Silver</h3>
+              <h4><sup>$</sup>7<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Gold</h3>
+              <h4><sup>$</sup>12<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Premium</h3>
+              <h4><sup>$</sup>21<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Ultimate</h3>
+              <h4><sup>$</sup>35<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Shirin City</h3>
+              <p>
+                Sirdaryo viloyati <br>
+                Shirin shahar<br><br>
+                <strong>Phone:</strong> +998(90) 400-33-01<br>
+                <strong>Email:</strong> abduvoitow@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Online shop</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Restaurant</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Delivery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">Taxi services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servives.html">And other</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Leave your comment. Your opinion is important to us</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>IT Center</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">IT center</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+</html>
+
+  <!-- =======================================================
+  * Dasturchi: Abduvoitov Doniyor +998 90 400 33 01, Nematullayev Jasur +998 91 508 39 29 
+  ======================================================== -->
