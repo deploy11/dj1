@@ -6,9 +6,9 @@ from django.views.generic import DetailView
 def home(request):
     if 'q' in request.GET:
         q = request.GET['q']
-        post = Post.objects.filter(Q(title__icontains=q))
+        post = Post.objects.filter(Q(title__icontains=q)).order_by('-id')
     else:
-        post = Post.objects.all()
+        post = Post.objects.all().order_by('-id')
       
     return render(request,'blog.html',{'post':post})
 class detail(DetailView):
